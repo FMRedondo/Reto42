@@ -49,6 +49,10 @@
        margin-top: 5px;
    }
 
+   .wrapper{
+       width: 90%;
+   }
+
    .cabecera{
        height: 70px;
    }
