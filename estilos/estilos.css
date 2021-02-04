@@ -73,6 +73,7 @@
     align-items: center;
     border: 2px solid var(--color-principal) !important;
     padding: 10px;
+    text-align: center;
     transition: all 0.2s linear 0s;
 }
 
