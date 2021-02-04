@@ -1,0 +1,80 @@
+@media screen and (max-width:1700px){
+    .titulo__banner{
+        font-size: 45px;
+    }
+
+    .texto__banner{
+        font-size: 20px;
+    }
+
+    .acceso__alumnos{
+        width: 200px;
+    }
+}
+
+@media screen and (max-width:1300px){
+
+    .titulo__banner{
+        font-size: 30px;
+    }
+
+    .texto__banner{
+        font-size: 17px;
+    }
+}
+
+@media screen and (max-width:1000px){
+    #menu{
+        display: none;
+    }
+}
+
+@media screen and (max-width:900px){
+
+   .titulo__banner{
+       font-size: 35px;
+       display: flex;
+       flex-wrap: wrap;
+       justify-content: center;
+       text-align: center;
+       padding: 20px;
+   }
+   .texto__banner{
+       font-size: 21px;
+       display: flex;
+       flex-wrap: wrap;
+       justify-content: center;
+       text-align: center;
+       padding: 20px;
+       margin-top: 5px;
+   }
+
+   .cabecera{
+       height: 70px;
+   }
+
+   .banner{
+       height: calc(100vh - 70px);
+   }
+
+   .logo{
+       width: 100px;
+       display: flex;
+       align-items: center;
+       margin: 0 !important;
+       margin-top: -30px !important;
+   }
+
+}
+
+
+@media screen and (max-width:400px){
+
+    .titulo__banner{
+        font-size: 22px;
+    }
+
+    .texto__banner{
+        font-size: 20px;
+    }
+}
