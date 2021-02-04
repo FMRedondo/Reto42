@@ -78,7 +78,6 @@
 
 .acceso__alumnos .fas{
     display: none;
-    transform: translateX(-500px);
 }
 
 .acceso__alumnos:hover{
