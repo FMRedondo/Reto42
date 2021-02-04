@@ -27,6 +27,37 @@
     #menu{
         display: none;
     }
+
+    .acceso__alumnos .fas{
+        display: block !important;
+
+    }
+
+    .hamburger{
+        display: block !important;
+    }
+
+    .acceso__alumnos{
+        width: 100%;
+        background-color: var(--color-principal);
+    }
+
+    .menuppal1 ul{
+        display: flex;
+        align-items: center !important;
+        text-align: center !important;
+        justify-content: center !important;
+    }
+
+    .enlace__menu{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+
+
+
+
 }
 
 @media screen and (max-width:900px){
@@ -47,6 +78,16 @@
        text-align: center;
        padding: 20px;
        margin-top: 5px;
+       text-align: center;
+   }
+
+   .hamburger{
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       height: auto;
+       margin: 0;
+       padding: 0;
    }
 
    .wrapper{
