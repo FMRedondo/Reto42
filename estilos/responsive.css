@@ -12,6 +12,22 @@
     }
 }
 
+@media screen and (max-width:1500px){
+    .parrafo__excusa{
+        font-size: 12px !important;
+    }
+
+    .excusa{
+        width: 50%;
+    }
+
+    #menu a, .enlace__menu{
+        margin-right: 30px;
+    }
+
+}
+
+
 @media screen and (max-width:1300px){
 
     .titulo__banner{
@@ -137,7 +153,13 @@
        margin-bottom: 50px;
    }
 
+   .parrafo__excusas{
+       font-size: 12px;
+   }
 
+   .excusa{
+       transform: scale(1.2);
+   }
 }
 
 @media screen and (max-width:700px){
@@ -160,6 +182,22 @@
         display: none;
     }
 
+    .media__pantalla__img{
+        width: 95%;
+    }
+
+    .media__pantalla{
+        max-height: 600px;
+    }
+
+    .testimonios__titulo, .media__pantalla__titulo{
+        font-size: 25px !important;
+        padding: 20px;
+    }
+
+    .parrafo__testimonios{
+        font-size: 22px;
+    }
     
 }
 
@@ -173,11 +211,11 @@
         font-size: 20px;
     }
 
-    .testimonios__titulo{
-        font-size: 30px;
+    .testimonios__titulo, .media__pantalla__titulo{
+        font-size: 25px !important;
     }
 
     .parrafo__testimonios{
-        font-size: 25px;
+        font-size: 22px;
     }
 }
