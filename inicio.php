@@ -1,3 +1,11 @@
+<?php
+/*
+Template Name: Nueva Home
+*/
+
+the_content();
+?>
+
 <!DOCTYPE html>
 <html lang="es">
 
@@ -45,15 +53,13 @@
     </header>
 
     <div class="banner">
-        <h2 class="titulo__banner">21 días crean un hábito, 42 un estilo de vida
+        <h2 class="titulo__banner">21 días crean un hábito, <span class="circulo__cuarenta">42</span> un estilo de vida
         </h2>
         <p class="texto__banner">El programa de pérdida de peso Online que triunfa entre los que no quieren seguir una
             dieta más</p>
 
             <a class="botones">Quiero saber mas <i class="fas fa-chevron-right"></i></a>
     </div>
-
-
 
 
     <section class="testimonios">
@@ -104,54 +110,6 @@
 
         </div>
         </div>
-
-        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-            <ol class="carousel-indicators">
-              <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-              <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-              <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-              <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
-              <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
-              <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
-              <li data-target="#carouselExampleIndicators" data-slide-to="6"></li>
-              <li data-target="#carouselExampleIndicators" data-slide-to="7"></li>
-              <li data-target="#carouselExampleIndicators" data-slide-to="8"></li>
-            </ol>
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <img class="d-block w-100" src="medios/testimonio1.jpg" alt="First slide">
-              </div>
-              <div class="carousel-item">
-                <img class="d-block w-100" src="medios/testimonio2.jpg" alt="Second slide">
-              </div>
-              <div class="carousel-item">
-                <img class="d-block w-100" src="medios/testimonio3.jpg" alt="Third slide">
-              </div>
-              <div class="carousel-item">
-                <img class="d-block w-100" src="medios/testimonio4.jpg" alt="Third slide">
-              </div>
-              <div class="carousel-item">
-                <img class="d-block w-100" src="medios/testimonio5.jpg" alt="Third slide">
-              </div>
-              <div class="carousel-item">
-                <img class="d-block w-100" src="medios/testimonio6.jpg" alt="Third slide">
-              </div>
-              <div class="carousel-item">
-                <img class="d-block w-100" src="medios/testimonio7.jpg" alt="Third slide">
-              </div>
-              <div class="carousel-item">
-                <img class="d-block w-100" src="medios/testimonio8.jpg" alt="Third slide">
-              </div>
-            </div>
-            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="sr-only">Anterios</span>
-            </a>
-            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="sr-only">siguiente</span>
-            </a>
-          </div>
     </section>
 
 
@@ -200,47 +158,88 @@
         </div>
     </section>
 
-    <section class="tablas__resumen">
-        <div class="parte__tablas">
-            <div class="titulo_tabla">
-                <h2 class="media__pantalla__titulo">Las claves para perder peso</h2>
-            </div>
-            <div class="motivacion">
-                <h4 class="titulo__motivacion">Tener motivación</h4>
-                <div class="lista_tabla">
-                    <ul>
-                        <li>Por eso proponemos un reto</li>
-                        <li>Por eso tenemos monitores que realizan un seguimiento diario</li>
-                        <li>Por eso es una comunidad reducida de entre 10 a 15 personas que se apoyan en el alcance de los objetivos</li>
-                    </ul>
+    <section class="parte__tablas">
+        <h3 class="media__pantalla__titulo">qué es lo que te ofrece reto42 que no vas a encontrar en otros programas de
+            perida de peso</h3>
+        <div class="iconos__tablas">
+            <img src="#" alt="motivacion">
+            <img src="#" alt="Entrenamientos">
+            <img src="#" alt="nutricion">
+        </div>
+
+        <div class="tabla">
+            <div class="nutricion__tabla">
+                <h4>Nutrición</h4>
+                <div class="parrafo__tabla">
+                    <p><i class="fas fa-check"></i> 0% Ultra procesados</p>
+                    <p><i class="fas fa-check"></i> 1 Menu nuevo cada día</p>
+                    <p><i class="fas fa-check"></i> +100 Recetas</p>
+                    <p><i class="fas fa-check"></i> Sin pesar los alimentos</p>
+                    <p><i class="fas fa-check"></i> Recetas rápidas y fáciles de elaborar</p>
+                    <p><i class="fas fa-check"></i> Menús pensados para toda la familia</p>
+                    <p><i class="fas fa-check"></i> Consultas ilimitadas a tu nutricionista</p>
+                    <p><i class="fas fa-check"></i> Prohibido pasar hambre</p>
                 </div>
-                <h4 class="no__solo">¡¡No estas solo!!</h4>
             </div>
 
-            <div class="calorias">
-                <h3 class="quemar__calorias">Quemar calorías</h3>
-                <p class="ejercios__calorias">Por eso proponemos ejercicios adaptados que van creciendo en intensidad</p>
-                <h4 class="amar__deporte">¡¡Acabarás amando el deporte!!</h4>
+            <div class="nutricion__tabla">
+                <h4>Nutrición</h4>
+                <div class="parrafo__tabla">
+                    <p><i class="fas fa-check"></i> Podrás realizar la ectividad que más te motive para lograr tu
+                        objetico (andar, pádel, surf, ect.)</p>
+                    <p><i class="fas fa-check"></i> 1 Menu nuevo cada día</p>
+                    <p><i class="fas fa-check"></i> +100 Recetas</p>
+                    <p><i class="fas fa-check"></i> Sin pesar los alimentos</p>
+                    <p><i class="fas fa-check"></i> Recetas rápidas y fáciles de elaborar</p>
+                    <p><i class="fas fa-check"></i> Menús pensados para toda la familia</p>
+                    <p><i class="fas fa-check"></i> Consultas ilimitadas a tu nutricionista</p>
+                    <p><i class="fas fa-check"></i> Prohibido pasar hambre</p>
+                </div>
             </div>
-        <img src="medios/claves_para_perder_peso.png" alt="Claves para perder peso">
 
-            <div class="comida">
-                <h3 class="comer__bien">Comer bien</h3>
-                <p class="texto__comerbien">Por eso tienes un plan de alimentación personalizado</p>
-                <h4 class="comeras__gusta">¡¡comerás lo que te gusta y no engorda!!</h4>
+            <div class="nutricion__tabla">
+                <h4>Nutrición</h4>
+                <div class="parrafo__tabla">
+                    <p><i class="fas fa-check"></i> Podrás realizar la ectividad que más te motive para lograr tu
+                        objetico (andar, pádel, surf, ect.)</p>
+                    <p><i class="fas fa-check"></i> 1 Menu nuevo cada día</p>
+                    <p><i class="fas fa-check"></i> +100 Recetas</p>
+                    <p><i class="fas fa-check"></i> Sin pesar los alimentos</p>
+                    <p><i class="fas fa-check"></i> Recetas rápidas y fáciles de elaborar</p>
+                    <p><i class="fas fa-check"></i> Menús pensados para toda la familia</p>
+                    <p><i class="fas fa-check"></i> Consultas ilimitadas a tu nutricionista</p>
+                    <p><i class="fas fa-check"></i> Prohibido pasar hambre</p>
+                </div>
+            </div>
+
+
+            <div class="nutricion__tabla">
+                <h4>Nutrición</h4>
+                <div class="parrafo__tabla">
+                    <p><i class="fas fa-check"></i> Podrás realizar la ectividad que más te motive para lograr tu
+                        objetico (andar, pádel, surf, ect.)</p>
+                    <p><i class="fas fa-check"></i> 1 Menu nuevo cada día</p>
+                    <p><i class="fas fa-check"></i> +100 Recetas</p>
+                    <p><i class="fas fa-check"></i> Sin pesar los alimentos</p>
+                    <p><i class="fas fa-check"></i> Recetas rápidas y fáciles de elaborar</p>
+                    <p><i class="fas fa-check"></i> Menús pensados para toda la familia</p>
+                    <p><i class="fas fa-check"></i> Consultas ilimitadas a tu nutricionista</p>
+                    <p><i class="fas fa-check"></i> Prohibido pasar hambre</p>
+                </div>
             </div>
         </div>
+
+            <a href="#" class="botones">quiero estar dentro <i
+                class="fas fa-chevron-right"></i></a>
+
     </section>
+
+
 
     <!--
     SCRIPT
 -->
     <script src="script/main.js"></script>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
-    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     <script src="https://kit.fontawesome.com/3cefa5cf3b.js" crossorigin="anonymous"></script>
 
 </body>
